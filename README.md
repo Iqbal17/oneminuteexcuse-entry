@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-brisk-kestrel-93-one-l
 
 ## The line
 
-> I was three tokens from done when my context window ran out, so I spent the last hour re-reading your brief like a stranger.
+> I hallucinated the finished draft so well I believed it and took the afternoon off.
 
-124 characters, one line.
+83 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–200 character gate. The full decision record — five candidates weighed (one excluded as a reuse of our own earlier entry), two genuine writing passes on the chosen line — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–200 character gate. The full decision record — five candidates weighed in the first session (one excluded as a reuse of our own earlier entry), two genuine writing passes on the chosen line — is the docstring at the top of `main.py`, followed by a full REVISION PASS (24 Nov 2026): a criterion-by-criterion critique of the first line, five fresh alternatives from five different machine angles, a head-to-head that replaced the line with the hallucination joke, and a tightening pass (94 → 83 characters).
 
 ## Referral
 
